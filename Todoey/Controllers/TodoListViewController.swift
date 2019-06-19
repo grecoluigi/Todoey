@@ -33,12 +33,6 @@ class TodoListViewController: UITableViewController {
             itemArray = items
         }
 
-        
-//        if let items = defaults.array(forKey: "TodoListArray") as? [String] {
-//            itemArray = items
-//        }
-    }
-
     // MARK - TableView Datasource Methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
